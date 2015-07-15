@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.japal.maribelajarbahasainggris"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+       
+        <activity android:name="com.japal.berhitung.ViewNol">
+           <intent-filter >
+               <action android:name="android.intent.action.viewnol">
+           </action></intent-filter>
+       </activity>
+       <activity android:name="com.japal.berhitung.ViewSatu">
+           <intent-filter >
+               <action android:name="android.intent.action.viewsatu">
+           </action></intent-filter>
+       </activity>
+       <activity android:name="com.japal.berhitung.ViewDua">
+           <intent-filter >
+               <action android:name="android.intent.action.viewdua">
+           </action></intent-filter>
+       </activity>
+       <activity android:name="com.japal.berhitung.ViewTiga">
+           <intent-filter >
+               <action android:name="android.intent.action.viewtiga">
+           </action></intent-filter>
+       </activity>
+       <activity android:name="com.japal.berhitung.ViewEmpat">
+           <intent-filter >
+               <action android:name="android.intent.action.viewempat">
+           </action></intent-filter>
+       </activity>
+       <activity android:name="com.japal.berhitung.ViewLima">
+           <intent-filter >
+               <action android:name="android.intent.action.viewlima">
+           </action></intent-filter>
+       </activity>
+       <activity android:name="com.japal.berhitung.ViewEnam">
+           <intent-filter >
+               <action android:name="android.intent.action.viewenam">
+           </action></intent-filter>
+       </activity>
+       <activity android:name="com.japal.berhitung.ViewTujuh">
+           <intent-filter >
+               <action android:name="android.intent.action.viewtujuh">
+           </action></intent-filter>
+       </activity>
+       <activity android:name="com.japal.berhitung.ViewDelapan">
+           <intent-filter >
+               <action android:name="android.intent.action.viewdelapan">
+           </action></intent-filter>
+       </activity>
+       <activity android:name="com.japal.berhitung.ViewSembilan">
+           <intent-filter >
+               <action android:name="android.intent.action.viewsembilan">
+           </action></intent-filter>
+       </activity>
+       
+       <activity android:name="com.japal.berhitung.ViewFinishHitung">
+           <intent-filter >
+               <action android:name="android.intent.action.viewfinishhitung">
+           </action></intent-filter>
+       </activity>
+       <activity android:name="com.japal.berhitung.ViewSepuluh">
+           <intent-filter >
+               <action android:name="android.intent.action.viewsepuluh">
+           </action></intent-filter>
+       </activity>
+        <activity
+            android:name="com.japal.maribelajarbahasainggris.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       <activity android:name="com.japal.hewan.ViewHewan">
+           <intent-filter >
+               <action android:name="android.intent.action.viewhewan">
+           </action></intent-filter>
+       </activity>
+        
+    </application>
+
+</manifest>

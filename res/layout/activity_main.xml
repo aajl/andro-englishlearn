@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/utama"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+        <Button
+            android:id="@+id/btnberhitung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="145dp"
+            android:background="@drawable/button_hitung"
+            android:text="@string/hitung" />
+
+        <Button
+            android:id="@+id/btnhewan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnberhitung"
+            android:layout_below="@+id/btnberhitung"
+            android:background="@drawable/button_hitung"
+            android:text="@string/hewan" />
+
+        <Button
+            android:id="@+id/btnlatihan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnhewan"
+            android:layout_below="@+id/btnhewan"
+            android:background="@drawable/button_hitung"
+            android:text="@string/latihan" />
+
+        <Button
+            android:id="@+id/btnkeluar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/button_hitung"
+            android:text="@string/keluar" />
+
+</RelativeLayout>

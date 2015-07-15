@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mari Belajar Bahasa Inggris</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hitung">Berhitung</string>
+    <string name="hewan">Hewan2</string>
+    <string name="buah">Buah2an</string>
+    <string name="latihan">Tentang</string>
+    <string name="keluar">Keluar</string>
+    <string name="next">Lanjut</string>
+    <string name="play">Dengar</string>
+    <string name="menu">Menu</string>
+
+</resources>
